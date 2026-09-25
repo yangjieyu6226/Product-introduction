@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#090909" />
+    <meta name="description" content="AI Coding Test — 从问题拆解、AI 协作到代码落地的交互式设计记录。" />
+    <title>AI Coding Test · 开做</title>
+    <script>
+      document.documentElement.classList.add('js');
+      if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+      if (location.hash) history.replaceState(null, '', location.pathname + location.search);
+    </script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="deck" id="deck" aria-label="AI Coding Test 交互演示">
+      <section class="slide-shell is-active" id="slide-0" data-slide="0" aria-label="封面" aria-hidden="false">
+        <div class="stage cover-stage">
+          <div class="paper-bg-wrap"><img src="./assets/p1-imgImage57.png" alt="" /></div>
+          <img class="cover-sheet" src="./assets/p1-imgImage6562.png" alt="" />
+          <header class="brand reveal">
+            <img src="./assets/p1-imgImage56.png" alt="小红书" />
+            <span>AI CODING TEST</span>
+          </header>
+
+          <img class="cover-phone cover-phone-left hoverable reveal delay-4" src="./assets/p1-img1.png" alt="完成提交回执界面" />
+          <img class="cover-phone cover-phone-back hoverable reveal delay-5" src="./assets/p1-img39010401.png" alt="长页面移动端界面" />
+          <img class="cover-phone cover-phone-right hoverable reveal delay-6" src="./assets/p1-img2.png" alt="开做首页界面" />
+
+          <img class="cover-title-composite hoverable reveal delay-1" src="./assets/cover-title-composite.png" alt="开做，把收藏变成行动" />
+
+          <div class="cover-copy reveal delay-3">
+            <h1>AI 产品设计说明</h1>
+            <p>AI 原生产品设计与实现记录，从问题拆解、AI 协作到<br />代码落地完整记录一个想法变成产品的过程。</p>
+          </div>
+          <div class="cover-curtain">
+            <img class="cover-wave" src="./assets/p1-imgVector40.svg" alt="" />
+            <button class="start-button reveal delay-4" type="button" data-next="1">开启</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide-shell" id="slide-1" data-slide="1" aria-label="从题目到探索空间">
+        <div class="stage slide slide-01">
+          <div class="paper-bg-wrap"><img src="./assets/p2-imgImage57.png" alt="" /></div>
+          <header class="brand reveal"><img src="./assets/p2-imgImage56.png" alt="小红书" /><span>AI CODING TEST</span></header>
+          <div class="page-number reveal">01</div>
+          <div class="slide-heading reveal delay-1">
+            <h2>PART01丨AI辅助深度 <em>解析题目</em> 并进行 <em>时间规划</em></h2>
+            <p>AI 如何帮助我拆解题目，并建立选题方向</p>
+          </div>
+          <div class="header-rule"></div>
+
+          <article class="prompt-card card hoverable reveal delay-2" style="--x:64px;--y:214px;--w:500px;--h:225px">
+            <span class="pill">PROMPT 01</span>
+            <p class="prompt-copy">请分析这个小红书 AI 产品设计题目的考察重点，并拆解什么样的方向更容易体现产品 Sense、AI 能力和设计能力。</p>
+          </article>
+          <article class="prompt-card card hoverable reveal delay-3" style="--x:586px;--y:214px;--w:500px;--h:225px">
+            <span class="pill">PROMPT 02</span>
+            <p class="prompt-copy">根据当前题目的输出要求和重点，帮我合理安排这7天的时间安排每一天完成什么，注意AI等待时间的合理分配</p>
+          </article>
+
+          <figure class="image-card hoverable reveal delay-4" style="--x:64px;--y:459px;--w:500px;--h:326px">
+            <img class="p2-analysis" src="./assets/p2-imgImage3.png" alt="AI 对题目考察重点的分析截图" />
+            <img class="image-label-shape" src="./assets/p2-imgRectangle20.svg" alt="" />
+            <figcaption>分析对话截图</figcaption>
+          </figure>
+          <figure class="image-card hoverable reveal delay-5" style="--x:586px;--y:461px;--w:500px;--h:324px">
+            <img class="p2-plan" src="./assets/p2-imgImage19.png" alt="AI 生成的时间规划截图" />
+            <img class="image-label-shape" src="./assets/p2-imgRectangle20.svg" alt="" />
+            <figcaption>分析对话截图</figcaption>
+          </figure>
+
+          <aside class="exploration-card hoverable reveal delay-4">
+            <small>EXPLORATION MAP</small>
+            <h3>AI 帮我扩展<br />问题思考方向</h3>
+            <div class="topic-grid">
+              <span>生活效率</span><span>创作</span><span>学习</span><span>家庭</span><span>娱乐</span><span>工作</span>
+            </div>
+          </aside>
+          <p class="bottom-callout reveal delay-6">通过 AI 扩展问题空间，并建立筛选标准，为后续方向收敛提供依据。</p>
+          <button class="next-button" type="button" data-next="2" aria-label="下一页"><span></span></button>
+        </div>
+      </section>
+
+      <section class="slide-shell" id="slide-2" data-slide="2" aria-label="从 AI 发散到问题收敛">
+        <div class="stage slide slide-02">
+          <div class="paper-bg-wrap"><img src="./assets/p3-imgImage58.png" alt="" /></div>
+          <header class="brand reveal"><img src="./assets/p3-imgImage56.png" alt="小红书" /><span>AI CODING TEST</span></header>
+          <div class="page-number reveal">02</div>
+          <div class="slide-heading reveal delay-1">
+            <h2>PART02丨从 AI <em>发散</em>到问题<em>收敛</em></h2>
+            <p>AI 提供可能性，我通过约束筛选真实机会</p>
+          </div>
+          <div class="header-rule"></div>
+
+          <article class="step-panel step-panel-one hoverable reveal delay-2">
+            <span class="pill">01&nbsp;&nbsp;发散</span><small>PROMPT</small>
+            <h3>先扩大可能性</h3>
+            <p>探索 30 个日常生活中的真实痛点：小而美、7天可实现、AI 有明显价值、避免泛聊天助手。</p>
+            <div class="crop ideation-crop"><img src="./assets/p3-imgImage8.png" alt="AI 发散结果" /></div>
+          </article>
+          <img class="process-arrow arrow-a" src="./assets/p3-imgPolygon1.svg" alt="" />
+          <article class="step-panel step-panel-two dark-panel hoverable reveal delay-3">
+            <span class="pill yellow-pill">02&nbsp;&nbsp;评分</span>
+            <h3>建立筛选框架</h3>
+            <p>按痛点强度、使用频率、AI 必要性、实现成本、设计展示空间评分。</p>
+            <table class="score-table" aria-label="方向评分表">
+              <thead><tr><th>方向</th><th>痛点</th><th>AI</th><th>实现</th><th>视觉</th><th class="yellow-text">综合</th></tr></thead>
+              <tbody><tr><td>收藏转行动</td><td>9</td><td>9</td><td>8</td><td>9</td><td>35</td></tr><tr><td>照片拼贴</td><td>6</td><td>5</td><td>9</td><td>9</td><td>29</td></tr><tr><td>秋招助手</td><td>8</td><td>8</td><td>7</td><td>6</td><td>29</td></tr></tbody>
+            </table>
+            <strong class="panel-note">AI 给出排序，但排序不是决策。</strong>
+          </article>
+          <img class="process-arrow arrow-b" src="./assets/p3-imgPolygon1.svg" alt="" />
+          <article class="step-panel step-panel-three yellow-panel hoverable reveal delay-4">
+            <span class="pill">03&nbsp;&nbsp;判断</span><small>我进行判断收敛</small>
+            <p class="label">问题发现</p>
+            <h3>生活中收藏很多<br />但是很少开干</h3>
+            <div class="p3-illustration crop"><img src="./assets/p3-imgImage9.png" alt="收藏很多但没有行动的用户" /></div>
+            <p class="judgement">真正的问题发生在用户准备开始实践时，<br />需要重新整理信息，花时间理解学习。</p>
+          </article>
+          <p class="bottom-callout wide reveal delay-5">AI 提供候选与评价框架&nbsp; → &nbsp;我用现实判断做最终选择</p>
+          <button class="next-button" type="button" data-next="3" aria-label="下一页"><span></span></button>
+        </div>
+      </section>
+
+      <section class="slide-shell" id="slide-3" data-slide="3" aria-label="从问题到用户模型">
+        <div class="stage slide slide-03">
+          <div class="paper-bg-wrap"><img src="./assets/p4-imgImage57.png" alt="" /></div>
+          <header class="brand reveal"><img src="./assets/p4-imgImage56.png" alt="小红书" /><span>AI CODING TEST</span></header>
+          <div class="page-number reveal">03</div>
+          <div class="slide-heading reveal delay-1"><h2>从问题到用户模型： <em>目标用户及地图</em></h2><p>AI 辅助构建目标用户与用户旅程</p></div>
+          <div class="header-rule"></div>
+
+          <article class="journey-prompt card hoverable reveal delay-2">
+            <span class="pill">PROMPT 03</span>
+            <h3>让 AI 先描述问题中的人</h3>
+            <p>基于「收藏教程无法直接转化为行动」这个问题，请绘制用户行为地图：</p>
+          </article>
+
+          <aside class="persona-card yellow-panel hoverable reveal delay-3">
+            <img class="persona-tab-shape" src="./assets/p4-imgRectangle20.svg" alt="" />
+            <span class="persona-tab">用户行为画像</span>
+            <h3>一直收藏<br />从未行动</h3>
+            <div class="persona-illustration crop"><img src="./assets/p4-imgImage9.png" alt="从收藏到行动的用户画像" /></div>
+            <ul><li>看到好东西准备收藏实践</li><li>需要重新梳理信息</li><li>不想重新整理信息</li><li>可能分几次完成</li></ul>
+          </aside>
+
+          <div class="journey-title reveal delay-3"><span>使用产品前的真实旅程</span><img src="./assets/p4-imgVector1.svg" alt="" /></div>
+          <div class="journey-flow">
+            <article class="journey-stage light hoverable reveal delay-3"><b>01</b><h3>准备开始</h3><small>阻碍</small><p>目标范围不清，容易被完整教程带着走。</p><strong>机会｜目标确认</strong></article>
+            <article class="journey-stage dark hoverable reveal delay-4"><b>02</b><h3>找准备事项</h3><small>阻碍</small><p>文件、工具和材料散落在正文不同位置。</p><strong class="yellow-chip">机会｜准备清单</strong></article>
+            <article class="journey-stage light hoverable reveal delay-5"><b>03</b><h3>照着执行</h3><small>阻碍</small><p>步骤过长、卡住时很难只处理当前问题。</p><strong>机会｜局部支持</strong></article>
+            <article class="journey-stage yellow hoverable reveal delay-6"><b>04</b><h3>中断后继续</h3><small>阻碍</small><p>重新判断做到哪里，手动记录经常丢失。</p><strong class="dark-chip">机会｜进度恢复</strong></article>
+          </div>
+          <div class="emotion-line reveal delay-6"><img class="emotion-curve" src="./assets/p4-imgVector5.svg" alt="" /><img class="emotion e-one" src="./assets/p4-imgImage14.png" alt="担忧" /><img class="emotion e-two" src="./assets/p4-imgImage11.png" alt="受挫" /><img class="emotion e-three" src="./assets/p4-imgImage13.png" alt="难过" /></div>
+          <button class="next-button" type="button" data-next="4" aria-label="下一页"><span></span></button>
+        </div>
+      </section>
+
+      <section class="slide-shell" id="slide-4" data-slide="4" aria-label="AI 辅助 PRD 与 MVP 收敛">
+        <div class="stage slide slide-04">
+          <div class="paper-bg-wrap"><img src="./assets/p5-imgImage58.png" alt="" /></div>
+          <header class="brand reveal"><img src="./assets/p5-imgImage56.png" alt="小红书" /><span>AI CODING TEST</span></header>
+          <div class="slide-heading reveal delay-1"><h2>AI 辅助 PRD 与 MVP 收敛</h2></div>
+
+          <div class="before-label reveal delay-2">Before：prd复杂完整内容过于繁琐</div>
+          <article class="prd-prompt card hoverable reveal delay-2">
+            <span class="pill">PROMPT 04</span>
+            <p>根据问题定义，生成 MVP PRD：用户流程、核心功能、页面结构功能、AI 能力、技术实现。</p>
+          </article>
+          <figure class="prd-output image-card hoverable reveal delay-3"><img src="./assets/p5-imgImage18.png" alt="MVP PRD 输出截图" /><figcaption>生成PRD对话截图</figcaption></figure>
+
+          <div class="after-label reveal delay-2">After：筛选保留MVP版本</div>
+          <article class="mvp-card yellow-panel hoverable reveal delay-3">
+            <small>请按 7 天开发限制重新收敛</small>
+            <h3>只保留<br />能验证价值的闭环</h3>
+            <div class="mvp-steps"><span>导入内容</span><i><img src="./assets/p5-imgVector2.svg" alt="" /></i><span>确认目标</span><i><img src="./assets/p5-imgVector2.svg" alt="" /></i><span>生成开工单</span><i><img src="./assets/p5-imgVector2.svg" alt="" /></i><span>执行并保留状态</span></div>
+          </article>
+
+          <aside class="platform-panel reveal delay-4">
+            <div class="page-number">04</div>
+            <h2>AI 平台使用快速验证</h2>
+            <p>用低成本提示词先验证平台操作边界和额度消耗情况</p>
+            <div class="platform-shot hoverable"><span class="pill">PROMPT 04</span><img src="./assets/p5-imgImage10.png" alt="平台验证提示词截图" /><img class="platform-phone" src="./assets/p5-imgImage20.png" alt="生成结果预览" /></div>
+            <ul><li>搭建基础框架</li><li>了解平台生成效果和限度</li><li>了解单次生成所消耗 token</li><li>了解单次生成时长…</li></ul>
+          </aside>
+          <button class="next-button" type="button" data-next="5" aria-label="下一页"><span></span></button>
+        </div>
+      </section>
+
+      <section class="slide-shell" id="slide-5" data-slide="5" aria-label="AI 参与交互设计和页面规划">
+        <div class="stage slide slide-05">
+          <div class="paper-bg-wrap"><img src="./assets/p6-imgImage58.png" alt="" /></div>
+          <header class="brand reveal"><img src="./assets/p6-imgImage56.png" alt="小红书" /><span>AI CODING TEST</span></header>
+          <div class="page-number reveal">05</div>
+          <div class="slide-heading reveal delay-1"><h2>AI 参与交互设计和页面规划</h2><p>让每一页都对应用户目标，而不只是堆功能</p></div>
+          <div class="header-rule"></div>
+
+          <article class="ux-card hoverable reveal delay-2" style="--x:64px">
+            <span class="pill index-pill">01</span><h3>让AI生成初始页面架构</h3><p>基于 MVP PRD，AI规划移动端页面，并说明每页的目标、核心操作和交互</p><img src="./assets/p6-imgImage48.png" alt="AI 生成的页面架构" />
+          </article>
+          <article class="ux-card hoverable reveal delay-3" style="--x:470px">
+            <span class="pill index-pill">02</span><h3>让AI在用户角度质疑</h3><p>从用户视角审视方案，发现问题</p><img src="./assets/p6-imgImage49.png" alt="AI 从用户角度审视方案" />
+          </article>
+
+          <aside class="decision-panel reveal delay-3">
+            <h3>设计决策</h3><p>只保留真正需要的页面和功能，思考最小交互合理性</p>
+            <div class="decision-row hoverable"><img src="./assets/p6-imgImage6550.png" alt="目标" /><div><b>AI初版</b><span>生成任务列表过于详细<br />列表长完成成本高</span></div><img class="decision-arrow" src="./assets/p6-imgPolygon2.svg" alt="" /><div><b>我的判断</b><span>兜底只展示核心流程<br />优先实现</span></div></div>
+            <div class="decision-row hoverable"><img src="./assets/p6-imgImage6553.png" alt="清单" /><div><b>AI初版</b><span>完成即结束</span></div><img class="decision-arrow" src="./assets/p6-imgPolygon2.svg" alt="" /><div><b>我的判断</b><span>用户需要结果沉淀激励<br />增加成就感</span></div></div>
+            <div class="decision-row hoverable"><img src="./assets/p6-imgImage6552.png" alt="行动" /><div><b>AI初版</b><span>生成任务列表过于详细<br />列表长完成成本高</span></div><img class="decision-arrow" src="./assets/p6-imgPolygon2.svg" alt="" /><div><b>我的判断</b><span>兜底只展示核心流程<br />优先实现</span></div></div>
+          </aside>
+          <button class="next-button" type="button" data-next="6" aria-label="下一页"><span></span></button>
+        </div>
+      </section>
+
+      <section class="slide-shell" id="slide-6" data-slide="6" aria-label="AI 辅助视觉探索与设计落地">
+        <div class="stage slide slide-06">
+          <div class="paper-bg-wrap"><img src="./assets/p7-imgImage58.png" alt="" /></div>
+          <header class="brand reveal"><img src="./assets/p7-imgImage56.png" alt="小红书" /><span>AI CODING TEST</span></header>
+          <div class="page-number reveal">06</div>
+          <div class="slide-heading reveal delay-1"><h2>AI 辅助视觉探索与设计落地</h2><p>从风格方向到 Figma 设计系统，AI 提供起点，我负责建立一致性</p></div>
+          <div class="header-rule"></div>
+
+          <article class="visual-card visual-card-left reveal delay-2">
+            <header><div><h3>AI生成效果图</h3><p>参考理想风格生成大致效果</p></div><img src="./assets/p7-imgImage6549.png" alt="ChatGPT" /></header>
+            <img class="visual-main hoverable" src="./assets/p7-imgImage15.png" alt="AI 生成的应用视觉探索图" />
+          </article>
+          <article class="visual-card visual-card-right reveal delay-3">
+            <header><div><h3>AI在figma中绘制设计稿</h3><p>用figma mcp把界面还原到figma中进行调整</p></div><span class="tool-icons"><img src="./assets/p7-imgImage278.png" alt="Figma" /><img src="./assets/p7-imgImage6549.png" alt="ChatGPT" /></span></header>
+            <div class="figma-adjust hoverable"><h3>Figma 调整稿｜首页定稿</h3><img src="./assets/p7-imgImage16.png" alt="Figma 调整稿" /></div>
+          </article>
+          <div class="process-strip reveal delay-4"><span>AI 稿</span><img src="./assets/p7-imgVector37.svg" alt="" /><span>Figma 调整</span><img src="./assets/p7-imgVector38.svg" alt="" /><span>Design System</span></div>
+          <button class="next-button" type="button" data-next="7" aria-label="下一页"><span></span></button>
+        </div>
+      </section>
+
+      <section class="slide-shell" id="slide-7" data-slide="7" aria-label="AI Coding 还原与调试">
+        <div class="stage slide slide-07">
+          <div class="paper-bg-wrap"><img src="./assets/p8-imgImage58.png" alt="" /></div>
+          <header class="brand reveal"><img src="./assets/p8-imgImage56.png" alt="小红书" /><span>AI CODING TEST</span></header>
+          <div class="page-number reveal">07</div>
+          <div class="slide-heading reveal delay-1"><h2>AI Coding <em>还原与调试</em></h2><p>从第一次生成到结构化修正：用截图发现问题，用精确 Prompt 收敛</p></div>
+          <div class="header-rule"></div>
+
+          <span class="column-label label-first">第一版</span><span class="column-label label-second">第二版</span><span class="column-label label-final">还原设计稿</span>
+          <div class="phone-review phone-first hoverable reveal delay-2"><img src="./assets/p8-imgImage6560.png" alt="第一版移动端页面" /><strong>发现的问题</strong><p>01&nbsp;&nbsp;风格AI感重<br />02&nbsp;&nbsp;功能不完善</p></div>
+          <div class="structured-input reveal delay-3">
+            <div class="mini-card hoverable"><img src="./assets/p8-imgImage6556.png" alt="设计图输入" /><img class="mini-tag-shape" src="./assets/p8-imgRectangle20.svg" alt="" /><span>设计输入给AI</span><img class="mini-dot" src="./assets/p8-imgEllipse24.svg" alt="" /></div>
+            <div class="mini-card hoverable"><img src="./assets/p8-imgImage6555.png" alt="结构化文字输入" /><img class="mini-tag-shape" src="./assets/p8-imgRectangle20.svg" alt="" /><span>清晰交互结构输入</span><img class="mini-dot" src="./assets/p8-imgEllipse24.svg" alt="" /></div>
+            <div class="tool-bridge hoverable"><b>连接 figma MCP 生成可交互网站</b><div><img src="./assets/p8-imgImage278.png" alt="Figma" /><img class="bridge-arrow" src="./assets/p8-imgVector4.svg" alt="" /><img src="./assets/p8-imgImage6549.png" alt="ChatGPT" /></div></div>
+          </div>
+          <div class="phone-review phone-second hoverable reveal delay-4"><img src="./assets/p8-imgImage54.png" alt="第二版移动端页面" /><p>carousel 结构错误<br />卡片比例错误<br />信息层级错误</p></div>
+          <div class="debug-stack reveal delay-4">
+            <article class="debug-card hoverable"><span>补充结构化文字描述，图片对照</span><p>明确页面结构、组件关系、尺寸比例、间距、交互状态等</p><img src="./assets/p8-imgImage6554.png" alt="对照图" /></article>
+            <article class="debug-card hoverable"><span>上传原始设计素材进行精准替换</span><p>将设计稿中的关键视觉资源单独上传</p><img src="./assets/p8-imgImage55.png" alt="素材对照" /></article>
+            <article class="debug-card hoverable"><span>提供代码约束与逐步调整反馈</span><p>上传已有 HTML/CSS/React 代码，让 AI 基于现有结构修改</p><img class="debug-reference" src="./assets/p8-imgCodeConstraint.png" alt="代码约束与位置说明截图" /></article>
+          </div>
+          <div class="phone-final hoverable reveal delay-5"><img class="screen" src="./assets/p8-img2.png" alt="还原完成的产品界面" /><img class="frame" src="./assets/p8-imgImage49.png" alt="" /></div>
+          <img class="debug-footer-line" src="./assets/p8-imgVector39.svg" alt="" />
+          <button class="next-button" type="button" data-next="8" aria-label="下一页"><span></span></button>
+        </div>
+      </section>
+
+      <section class="slide-shell" id="slide-8" data-slide="8" aria-label="最终产品体验闭环">
+        <div class="stage slide slide-08">
+          <div class="paper-bg-wrap"><img src="./assets/p9-imgImage58.png" alt="" /></div>
+          <header class="brand reveal"><img src="./assets/p9-imgImage56.png" alt="小红书" /><span>AI CODING TEST</span></header>
+          <div class="page-number reveal">08</div>
+          <div class="slide-heading reveal delay-1"><h2>最终产品体验闭环</h2><p>这一页只展示产品：AI 输出最终成为用户可操作的状态</p></div>
+          <div class="header-rule"></div>
+
+          <div class="product-flow">
+            <figure class="product-phone phone-one hoverable reveal delay-2" style="--x:51px;--y:278px"><img class="screen" src="./assets/p9-img1.png" alt="导入收藏界面" /><img class="frame" src="./assets/p9-imgImage49.png" alt="" /><figcaption>导入收藏</figcaption></figure>
+            <figure class="product-phone phone-two hoverable reveal delay-3" style="--x:349px;--y:232px"><img class="screen" src="./assets/p9-imgFrame111.png" alt="确认目标界面" /><img class="frame" src="./assets/p9-imgImage49.png" alt="" /><figcaption>确认目标</figcaption></figure>
+            <figure class="product-phone phone-three hoverable reveal delay-4" style="--x:647px;--y:191px"><img class="screen tall" src="./assets/p9-img39010401.png" alt="开工单长页面" /><img class="frame" src="./assets/p9-imgImage49.png" alt="" /><figcaption></figcaption></figure>
+            <figure class="product-phone phone-four hoverable reveal delay-5" style="--x:945px;--y:135px"><img class="screen" src="./assets/p9-img2.png" alt="执行界面" /><img class="frame" src="./assets/p9-imgImage49.png" alt="" /><figcaption>执行</figcaption></figure>
+            <figure class="product-phone phone-five hoverable reveal delay-6" style="--x:1243px;--y:96px"><img class="screen receipt" src="./assets/p9-img3.png" alt="完成小票界面" /><img class="frame" src="./assets/p9-imgImage49.png" alt="" /><figcaption>完成小票</figcaption></figure>
+          </div>
+          <button class="next-button" type="button" data-next="9" aria-label="下一页"><span></span></button>
+        </div>
+      </section>
+
+      <section class="slide-shell" id="slide-9" data-slide="9" aria-label="总结与未来可能性">
+        <div class="stage slide slide-09">
+          <div class="paper-bg-wrap"><img src="./assets/p9-imgImage58.png" alt="" /></div>
+          <header class="brand reveal"><img src="./assets/p9-imgImage56.png" alt="小红书" /><span>AI CODING TEST</span></header>
+          <div class="page-number reveal">09</div>
+          <div class="slide-heading reveal delay-1"><h2>总结与未来可能性</h2><p>用结果回应题目，也明确下一步值得继续验证的方向</p></div>
+
+          <div class="summary-capabilities">
+            <article class="summary-capability summary-capability-one hoverable reveal delay-2"><h3>产品 Sense</h3><p>AI 探索 → 人工筛选 → 问题收敛</p></article>
+            <article class="summary-capability summary-capability-two hoverable reveal delay-3"><h3>AI 能力</h3><p>探索 / 分析 / 设计 / 实现全程参与</p></article>
+            <article class="summary-capability summary-capability-three hoverable reveal delay-3"><h3>设计能力</h3><p>视觉体系 / 交互状态</p></article>
+            <article class="summary-capability summary-capability-four hoverable reveal delay-4"><h3>完整度</h3><p>7 天 MVP / 主动取舍 / 闭环可演示</p></article>
+          </div>
+
+          <figure class="summary-outcome hoverable reveal delay-4">
+            <img src="./assets/p10-outcome.png" alt="AI 辅助生成说明 PPT 的工作过程" />
+            <figcaption>AI辅助快速输出说明ppt以及展示效果</figcaption>
+          </figure>
+
+          <article class="summary-future summary-future-one hoverable reveal delay-4">
+            <h3>更低成本输入</h3><div><span>现在：复制文字</span><strong>未来：截图、网页、收藏同步</strong></div>
+          </article>
+          <article class="summary-future summary-future-three hoverable reveal delay-5">
+            <h3>个人知识资产沉淀</h3><div><span>现在：完成一次收藏</span><strong>未来：形成个人实践库，更加趣味化</strong></div>
+          </article>
+          <article class="summary-future summary-future-two hoverable reveal delay-6">
+            <h3>更智能解析拆解收藏内容</h3><div><span>现在：生成固定步骤</span><strong>未来：根据不同类型内容反馈动态调整步骤</strong></div>
+          </article>
+
+          <img class="summary-process hoverable reveal delay-4" src="./assets/p10-process.png" alt="当前 MVP 闭环与未来能力演进路径" />
+
+          <button class="next-button restart-button" type="button" data-next="0" aria-label="回到首页"><span></span></button>
+        </div>
+      </section>
+    </main>
+
+    <div class="slide-indicator" aria-hidden="true"><span id="currentSlide">1</span><i></i><span>10</span></div>
+    <script src="./assets/vendor/gsap.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
